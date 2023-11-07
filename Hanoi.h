@@ -17,7 +17,8 @@ private:
 	// _cache[num_discs][src][dst] = "move1\nmove2\n..."
 
 	vector<vector<vector<string>>> _cache;
-
+//	int _count = 0;
+//	string _result;
 	string lookup_moves(int num_discs, int src, int dst) const;
 	string get_moves(int num_discs, int src, int dst, int tmp);
 public:
